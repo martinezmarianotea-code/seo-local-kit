@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Planifica el SEO de un negocio local: ficha y schema JSON-LD, análisis de Search Console, keywords, buyer personas, mapa semántico e informe. Todo en el navegador.">
+  <title>seo-local-kit</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/app.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo" aria-hidden="true"></span>
+      <div>
+        <strong>seo-local-kit</strong>
+        <span>Planificador de SEO local</span>
+      </div>
+    </div>
+    <nav id="tabs" aria-label="Secciones"></nav>
+    <label class="menu">
+      <span class="sr-only">Proyecto</span>
+      <select id="project-menu">
+        <option value="" selected disabled hidden>Proyecto ▾</option>
+        <option value="new">Nuevo</option>
+        <option value="open">Abrir archivo…</option>
+        <option value="save">Guardar archivo</option>
+        <option value="example">Cargar ejemplo</option>
+      </select>
+    </label>
+  </header>
+  <main id="view" tabindex="-1"></main>
+  <footer class="foot">
+    Los datos se guardan solo en este navegador. Usa <em>Proyecto → Guardar archivo</em> para respaldarlos o pasarlos a otro equipo.
+    · <a href="https://github.com/martinezmarianotea-code/seo-local-kit">Código fuente</a>
+  </footer>
+  <noscript>Esta herramienta necesita JavaScript.</noscript>
+</body>
+</html>

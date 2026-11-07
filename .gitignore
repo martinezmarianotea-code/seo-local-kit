@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+.vscode/
+.idea/
+*.log
+# Proyectos reales exportados: no subirlos por accidente
+*.seo.json

@@ -1,0 +1,584 @@
+{
+  "version": 1,
+  "business": {
+    "type": "CafeOrCoffeeShop",
+    "name": "Café Brújula",
+    "description": "Cafetería de especialidad con café de Oaxaca tostado en casa, desayunos y brunch. (Negocio ficticio de ejemplo.)",
+    "url": "https://example.com",
+    "phone": "+52 000 000 0000",
+    "email": "hola@example.com",
+    "image": "https://example.com/fachada.jpg",
+    "priceRange": "$$",
+    "street": "Av. Ejemplo 123, Centro",
+    "city": "Ciudad Ejemplo",
+    "region": "Estado",
+    "postalCode": "00000",
+    "country": "MX",
+    "latitude": "19.4326",
+    "longitude": "-99.1332",
+    "areaServed": "Centro, Barrio Norte, Colonia Jardines",
+    "cuisine": "Café, Desayunos, Repostería",
+    "menu": "https://example.com/menu",
+    "reservations": false,
+    "sameAs": "https://www.instagram.com/example\nhttps://www.facebook.com/example",
+    "hours": {
+      "Monday": {
+        "opens": "08:00",
+        "closes": "21:00"
+      },
+      "Tuesday": {
+        "opens": "08:00",
+        "closes": "21:00"
+      },
+      "Wednesday": {
+        "opens": "08:00",
+        "closes": "21:00"
+      },
+      "Thursday": {
+        "opens": "08:00",
+        "closes": "21:00"
+      },
+      "Friday": {
+        "opens": "08:00",
+        "closes": "21:00"
+      },
+      "Saturday": {
+        "opens": "09:00",
+        "closes": "22:00"
+      },
+      "Sunday": {
+        "opens": "09:00",
+        "closes": "15:00"
+      }
+    }
+  },
+  "clusters": [
+    {
+      "id": "c-cafe",
+      "name": "Café de especialidad",
+      "terms": [
+        "cafe de especialidad",
+        "grano",
+        "v60",
+        "latte",
+        "matcha",
+        "chai",
+        "mejor cafe"
+      ]
+    },
+    {
+      "id": "c-desayuno",
+      "name": "Desayunos y brunch",
+      "terms": [
+        "desayuno",
+        "brunch",
+        "chilaquiles"
+      ]
+    },
+    {
+      "id": "c-trabajo",
+      "name": "Trabajar en un café",
+      "terms": [
+        "trabajar",
+        "wifi",
+        "laptop",
+        "enchufes"
+      ]
+    },
+    {
+      "id": "c-reposteria",
+      "name": "Repostería",
+      "terms": [
+        "pastel",
+        "galletas"
+      ]
+    },
+    {
+      "id": "c-marca",
+      "name": "Marca y visita",
+      "terms": [
+        "brujula",
+        "brújula",
+        "horario",
+        "abierto",
+        "cerca de mi",
+        "centro",
+        "jardin",
+        "pet friendly"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "p-home",
+      "url": "/",
+      "title": "Café Brújula | Café de especialidad y brunch en el centro",
+      "clusterId": "c-marca"
+    },
+    {
+      "id": "p-menu",
+      "url": "/menu",
+      "title": "Menú: desayunos, brunch y café de especialidad",
+      "clusterId": "c-desayuno"
+    },
+    {
+      "id": "p-cafe",
+      "url": "/cafe-de-especialidad",
+      "title": "Nuestro café: orígenes de Oaxaca y métodos de preparación",
+      "clusterId": "c-cafe"
+    },
+    {
+      "id": "p-trabajo",
+      "url": "/trabajar-en-cafe",
+      "title": "Un café para trabajar: wifi, enchufes y horario",
+      "clusterId": "c-trabajo"
+    },
+    {
+      "id": "p-pasteles",
+      "url": "/pasteles",
+      "title": "Pasteles por pedido y repostería artesanal",
+      "clusterId": "c-reposteria"
+    },
+    {
+      "id": "p-tienda",
+      "url": "/tienda/cafe-en-grano",
+      "title": "",
+      "clusterId": "c-cafe"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "k01",
+      "keyword": "cafe brujula",
+      "clusterId": "c-marca",
+      "intent": "navegacional",
+      "pageId": "p-home",
+      "priority": "alta",
+      "clicks": 352,
+      "impressions": 1450,
+      "position": 1.2
+    },
+    {
+      "id": "k02",
+      "keyword": "café brújula menú",
+      "clusterId": "c-marca",
+      "intent": "navegacional",
+      "pageId": "p-menu",
+      "priority": "media",
+      "clicks": 26,
+      "impressions": 610,
+      "position": 1.5
+    },
+    {
+      "id": "k03",
+      "keyword": "cafeteria cerca de mi",
+      "clusterId": "c-marca",
+      "intent": "local",
+      "pageId": "p-home",
+      "priority": "alta",
+      "clicks": 130,
+      "impressions": 5200,
+      "position": 6.8
+    },
+    {
+      "id": "k04",
+      "keyword": "cafe de especialidad cerca de mi",
+      "clusterId": "c-cafe",
+      "intent": "local",
+      "pageId": "p-cafe",
+      "priority": "alta",
+      "clicks": 45,
+      "impressions": 2300,
+      "position": 9.4
+    },
+    {
+      "id": "k05",
+      "keyword": "cafe de especialidad",
+      "clusterId": "c-cafe",
+      "intent": "informacional",
+      "pageId": "p-cafe",
+      "priority": "media",
+      "clicks": 24,
+      "impressions": 3100,
+      "position": 14.2
+    },
+    {
+      "id": "k06",
+      "keyword": "desayunos cerca de mi",
+      "clusterId": "c-desayuno",
+      "intent": "local",
+      "pageId": "p-menu",
+      "priority": "alta",
+      "clicks": 51,
+      "impressions": 4400,
+      "position": 11.6
+    },
+    {
+      "id": "k07",
+      "keyword": "brunch domingo",
+      "clusterId": "c-desayuno",
+      "intent": "local",
+      "pageId": "p-menu",
+      "priority": "alta",
+      "clicks": 20,
+      "impressions": 2100,
+      "position": 12.3
+    },
+    {
+      "id": "k08",
+      "keyword": "brunch cerca de mi",
+      "clusterId": "c-desayuno",
+      "intent": "local",
+      "pageId": null,
+      "priority": "alta",
+      "clicks": 13,
+      "impressions": 1600,
+      "position": 16.5
+    },
+    {
+      "id": "k09",
+      "keyword": "cafe para trabajar con wifi",
+      "clusterId": "c-trabajo",
+      "intent": "local",
+      "pageId": "p-trabajo",
+      "priority": "media",
+      "clicks": 53,
+      "impressions": 980,
+      "position": 5.2
+    },
+    {
+      "id": "k10",
+      "keyword": "lugares para trabajar con laptop",
+      "clusterId": "c-trabajo",
+      "intent": "informacional",
+      "pageId": "p-trabajo",
+      "priority": "media",
+      "clicks": 9,
+      "impressions": 760,
+      "position": 13.4
+    },
+    {
+      "id": "k11",
+      "keyword": "pasteles para cumpleaños",
+      "clusterId": "c-reposteria",
+      "intent": "transaccional",
+      "pageId": "p-pasteles",
+      "priority": "alta",
+      "clicks": 12,
+      "impressions": 2800,
+      "position": 21.5
+    },
+    {
+      "id": "k12",
+      "keyword": "pastel de chocolate por rebanada",
+      "clusterId": "c-reposteria",
+      "intent": "transaccional",
+      "pageId": "p-pasteles",
+      "priority": "baja",
+      "clicks": 11,
+      "impressions": 640,
+      "position": 9.9
+    },
+    {
+      "id": "k13",
+      "keyword": "comprar cafe de oaxaca en grano",
+      "clusterId": "c-cafe",
+      "intent": "transaccional",
+      "pageId": "p-tienda",
+      "priority": "media",
+      "clicks": 7,
+      "impressions": 710,
+      "position": 15.8
+    },
+    {
+      "id": "k14",
+      "keyword": "cafeteria con jardin",
+      "clusterId": "c-marca",
+      "intent": "local",
+      "pageId": null,
+      "priority": "media",
+      "clicks": 9,
+      "impressions": 820,
+      "position": 10.7
+    },
+    {
+      "id": "k15",
+      "keyword": "cafeteria pet friendly",
+      "clusterId": "c-marca",
+      "intent": "local",
+      "pageId": null,
+      "priority": "baja",
+      "clicks": 41,
+      "impressions": 690,
+      "position": 4.8
+    },
+    {
+      "id": "k16",
+      "keyword": "metodos de cafe v60",
+      "clusterId": "c-cafe",
+      "intent": "informacional",
+      "pageId": null,
+      "priority": "baja",
+      "clicks": 1,
+      "impressions": 380,
+      "position": 28.0
+    }
+  ],
+  "queries": [
+    {
+      "query": "cafe brujula",
+      "clicks": 352,
+      "impressions": 1450,
+      "ctr": 0.24275862068965517,
+      "position": 1.2
+    },
+    {
+      "query": "cafeteria cerca de mi",
+      "clicks": 130,
+      "impressions": 5200,
+      "ctr": 0.025,
+      "position": 6.8
+    },
+    {
+      "query": "cafe brujula horario",
+      "clicks": 122,
+      "impressions": 380,
+      "ctr": 0.32105263157894737,
+      "position": 1.4
+    },
+    {
+      "query": "cafe para trabajar con wifi",
+      "clicks": 53,
+      "impressions": 980,
+      "ctr": 0.05408163265306123,
+      "position": 5.2
+    },
+    {
+      "query": "desayunos cerca de mi",
+      "clicks": 51,
+      "impressions": 4400,
+      "ctr": 0.011590909090909091,
+      "position": 11.6
+    },
+    {
+      "query": "cafe de especialidad cerca de mi",
+      "clicks": 45,
+      "impressions": 2300,
+      "ctr": 0.01956521739130435,
+      "position": 9.4
+    },
+    {
+      "query": "cafeteria pet friendly",
+      "clicks": 41,
+      "impressions": 690,
+      "ctr": 0.059420289855072465,
+      "position": 4.8
+    },
+    {
+      "query": "cafeteria en el centro",
+      "clicks": 35,
+      "impressions": 1900,
+      "ctr": 0.018421052631578946,
+      "position": 4.1
+    },
+    {
+      "query": "desayunos en el centro",
+      "clicks": 35,
+      "impressions": 1700,
+      "ctr": 0.020588235294117647,
+      "position": 8.8
+    },
+    {
+      "query": "café brújula menú",
+      "clicks": 26,
+      "impressions": 610,
+      "ctr": 0.04262295081967213,
+      "position": 1.5
+    },
+    {
+      "query": "cafe de especialidad",
+      "clicks": 24,
+      "impressions": 3100,
+      "ctr": 0.007741935483870968,
+      "position": 14.2
+    },
+    {
+      "query": "brunch domingo",
+      "clicks": 20,
+      "impressions": 2100,
+      "ctr": 0.009523809523809525,
+      "position": 12.3
+    },
+    {
+      "query": "cafe en grano para llevar",
+      "clicks": 19,
+      "impressions": 450,
+      "ctr": 0.042222222222222223,
+      "position": 6.1
+    },
+    {
+      "query": "matcha latte cerca de mi",
+      "clicks": 19,
+      "impressions": 560,
+      "ctr": 0.033928571428571426,
+      "position": 7.4
+    },
+    {
+      "query": "brunch cerca de mi",
+      "clicks": 13,
+      "impressions": 1600,
+      "ctr": 0.008125,
+      "position": 16.5
+    },
+    {
+      "query": "pasteles para cumpleaños",
+      "clicks": 12,
+      "impressions": 2800,
+      "ctr": 0.004285714285714286,
+      "position": 21.5
+    },
+    {
+      "query": "pastel de chocolate por rebanada",
+      "clicks": 11,
+      "impressions": 640,
+      "ctr": 0.0171875,
+      "position": 9.9
+    },
+    {
+      "query": "latte de avena",
+      "clicks": 10,
+      "impressions": 340,
+      "ctr": 0.029411764705882353,
+      "position": 8.3
+    },
+    {
+      "query": "mejor cafe del centro",
+      "clicks": 9,
+      "impressions": 1250,
+      "ctr": 0.0072,
+      "position": 7.9
+    },
+    {
+      "query": "lugares para trabajar con laptop",
+      "clicks": 9,
+      "impressions": 760,
+      "ctr": 0.011842105263157895,
+      "position": 13.4
+    },
+    {
+      "query": "cafeteria con jardin",
+      "clicks": 9,
+      "impressions": 820,
+      "ctr": 0.01097560975609756,
+      "position": 10.7
+    },
+    {
+      "query": "cafeteria con enchufes para trabajar",
+      "clicks": 8,
+      "impressions": 420,
+      "ctr": 0.01904761904761905,
+      "position": 3.6
+    },
+    {
+      "query": "chilaquiles cerca de mi",
+      "clicks": 7,
+      "impressions": 900,
+      "ctr": 0.0077777777777777776,
+      "position": 18.9
+    },
+    {
+      "query": "comprar cafe de oaxaca en grano",
+      "clicks": 7,
+      "impressions": 710,
+      "ctr": 0.009859154929577466,
+      "position": 15.8
+    },
+    {
+      "query": "cafe para llevar",
+      "clicks": 7,
+      "impressions": 1100,
+      "ctr": 0.006363636363636364,
+      "position": 19.4
+    },
+    {
+      "query": "cafeteria abierta en la noche",
+      "clicks": 5,
+      "impressions": 470,
+      "ctr": 0.010638297872340425,
+      "position": 12.9
+    },
+    {
+      "query": "cafe abierto domingo",
+      "clicks": 5,
+      "impressions": 610,
+      "ctr": 0.00819672131147541,
+      "position": 6.6
+    },
+    {
+      "query": "desayuno saludable",
+      "clicks": 4,
+      "impressions": 1300,
+      "ctr": 0.003076923076923077,
+      "position": 24.0
+    },
+    {
+      "query": "galletas artesanales",
+      "clicks": 3,
+      "impressions": 530,
+      "ctr": 0.005660377358490566,
+      "position": 17.2
+    },
+    {
+      "query": "chai latte",
+      "clicks": 2,
+      "impressions": 900,
+      "ctr": 0.0022222222222222222,
+      "position": 31.0
+    },
+    {
+      "query": "metodos de cafe v60",
+      "clicks": 1,
+      "impressions": 380,
+      "ctr": 0.002631578947368421,
+      "position": 28.0
+    }
+  ],
+  "personas": [
+    {
+      "id": "pe1",
+      "name": "Trabajadora remota",
+      "summary": "28–35 años, diseñadora freelance. Trabaja desde cafés tres días por semana.",
+      "goals": "Un lugar tranquilo con wifi estable, enchufes y buen café para pasar la mañana.",
+      "frustrations": "Llegar y que no haya mesas con enchufe, o que la señal falle en una videollamada.",
+      "searches": "cafe para trabajar con wifi\ncafeteria con enchufes para trabajar\ncafe abierto temprano",
+      "objections": [
+        {
+          "q": "¿Me van a apurar si me quedo varias horas?",
+          "a": "La página /trabajar-en-cafe explica la política de mesas y los horarios tranquilos."
+        },
+        {
+          "q": "¿El wifi aguanta videollamadas?",
+          "a": "Publicar la velocidad medida y una foto del área de trabajo."
+        }
+      ]
+    },
+    {
+      "id": "pe2",
+      "name": "Familia de fin de semana",
+      "summary": "Pareja con dos hijos que sale a desayunar el domingo.",
+      "goals": "Desayuno abundante, espacio para niños y que no haya que esperar mucho.",
+      "frustrations": "Filas largas sin saber el tiempo de espera; menús sin precios en línea.",
+      "searches": "brunch domingo\ndesayunos cerca de mi\ncafeteria con jardin",
+      "objections": [
+        {
+          "q": "¿Hay que reservar?",
+          "a": "Indicar en el menú y en Google Business cómo funciona la lista de espera."
+        }
+      ]
+    }
+  ],
+  "map": {
+    "positions": {}
+  },
+  "updatedAt": null
+}
